@@ -15,7 +15,7 @@
 - Athena (for analysis)
 - S3 (destination)
 ## Architecture 
-<img src="https://github.com/sandeepdevamisra/Sales-Data-Projection/blob/main/img/architecture.png" alt="architecture" width="80%">
+<img src="https://github.com/sandeepdevamisra/Sales-Data-Projection/blob/main/img/architecture.png" alt="architecture" width="100%">
 
 ## File structure
 - `Sales-Data-Projection`/
