@@ -30,7 +30,7 @@
 - Setup a Kinesis stream.
 - Setup a EventBridge Pipe with source as DynamoDB stream, and target as Kinesis stream with partition key as eventID. We will not use the filtering and enrichment part. 
 - Create a Kinesis Firehose for batching this real-time stream to mini-batches. Source is Kinesis datastream and destination is S3.
-- Transform the data coming to Firehose before sending to S3 using a lambda function. Data will be ingested as JSON in S3.
+- Transform the data coming to Firehose before sending to S3 using a [lambda function](https://github.com/sandeepdevamisra/Near-Real-Time-CDC-Pipeline/blob/main/transformation_layer_with_lambda.py). Data will be ingested as JSON in S3.
 - Make necessary transformations such that data is well-formatted.
 - For querying it using Athena, use Glue crawler on S3.
 
