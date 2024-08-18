@@ -1,5 +1,4 @@
 # Near Real Time CDC Pipeline
-Public
 ## Objective
 - Create a near real-time CDC pipeline such that the changes (insertion, updation, deletion) are consumed and ingested into S3 so that analysis can be done.
 ## Data 
